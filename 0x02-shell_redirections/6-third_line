@@ -1,2 +1,2 @@
 #!/bin/bash
-head -2 iacta.txt | tail +1
+awk 'NR==3' iacta.txt
